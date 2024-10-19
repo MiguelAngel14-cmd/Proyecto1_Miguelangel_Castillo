@@ -1,6 +1,7 @@
 
 console.log ("Hola Mundo");
 
+function funcion(){
 for(let cont=1 ; cont<=20; cont++){
     if (cont%2 === 0){
         console.log ("El numero " + cont + " es par");
@@ -8,3 +9,5 @@ for(let cont=1 ; cont<=20; cont++){
         console.log ("El numero " + cont + " es impar");
     }
 }
+}
+
